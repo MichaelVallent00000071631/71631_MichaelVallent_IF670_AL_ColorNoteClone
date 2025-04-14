@@ -4,17 +4,17 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import Home from './Home';
-import Profile from './Profile';
-import Login from './Login';
-import Register from './Register';
-import About from './About';
-import Settings from './Settings';
-import Editor from './Editor';
-import Add from './Add';
-import Help from './Help';
-import Checkbox from './Checkbox';
-import MoreSettings from './MoreSettings';
+import Home from './component/Home';
+import Profile from './component/Profile';
+import Login from './component/Login';
+import Register from './component/Register';
+import About from './component/About';
+import Settings from './component/Settings';
+import Editor from './component/Editor';
+import Add from './component/Add';
+import Help from './component/Help';
+import Checkbox from './component/Checkbox';
+import MoreSettings from './component/MoreSettings';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
